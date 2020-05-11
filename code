@@ -1,0 +1,12 @@
+#Dice
+import numpy as np
+
+def user_dice():
+    a = input("Enter Roll: ")
+    b = np.random.randint(1, 7)
+    if (a): print(b)
+    elif a != str:
+        print("just type roll")
+    while (b):
+        user_dice()
+user_dice()
